@@ -15,7 +15,7 @@ class GoogleSearch(unittest.TestCase):
         self.browser.find_element_by_name("btnK").click()
 
     def test_search_title(self):
-        assert 'Jenkins' in self.browser.title
+        assert 'Jenkins...' in self.browser.title
 
     @classmethod
 
